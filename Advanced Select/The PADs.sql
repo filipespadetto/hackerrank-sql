@@ -1,11 +1,13 @@
-SELECT NAME + '(' + LEFT(occupation, 1) + ')'
+-- Author: Filipe Spadetto
+
+SELECT [name] + '(' + LEFT(occupation, 1) + ')'
 FROM   occupations
-ORDER  BY NAME ASC;
+ORDER  BY [name] ASC;
 
 SELECT 'There are a total of '
-       + Rtrim(Cast(Count(occupation) AS CHAR))
-       + ' ' + Lower(occupation) + 's.'
+       + RTRIM(Cast(COUNT(Occupation) AS CHAR))
+       + ' ' + LOWER(Occupation) + 's.'
 FROM   occupations
 GROUP  BY occupation
-ORDER  BY Count(NAME) ASC,
-          occupation;
+ORDER  BY COUNT(Name) ASC,
+          Occupation;
