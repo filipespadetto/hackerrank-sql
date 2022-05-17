@@ -8,4 +8,4 @@ Todos os desafios de SQL feitos no HackerRank foram resolvidos com MS SQL Server
 ### Advanced Select Challenges  
 Número | Desafio | Solução 
 :-----:|:-------:|:-------:
-1      | [The PADS](https://www.hackerrank.com/challenges/the-pads/problem) | [SQL](#)
+1      | [The PADS](https://www.hackerrank.com/challenges/the-pads/problem) | [SQL](https://github.com/filipespadetto/hackerrank-sql/blob/main/Advanced%20Select/The%20PADs.sql)
